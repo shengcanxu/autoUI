@@ -134,9 +134,9 @@ toolbarwrapper = contentWrapper.filterChildren(control_type="Custom", contain_po
 # startButton.getObject().click()
 
 #clear list
-clearButton = toolbarwrapper.filterChildren(control_type="Button", contain_point=(540,100)).getObject()
-clearButton.click()
-time.sleep(1)
-tipsWrapper = appWrapper.filterDecendent(class_name="Qt5QWindowIcon", control_type="Window", text=u"提示信息")
-tipsOkButton = tipsWrapper.filterDecendent(control_type="Button", text=u"确定").getObject()
-tipsOkButton.click()
+# clearButton = toolbarwrapper.filterChildren(control_type="Button", contain_point=(540,100)).getObject()
+# clearButton.click()
+# time.sleep(1)
+# tipsWrapper = appWrapper.filterDecendent(class_name="Qt5QWindowIcon", control_type="Window", text=u"提示信息")
+# tipsOkButton = tipsWrapper.filterDecendent(control_type="Button", text=u"确定").getObject()
+# tipsOkButton.click()

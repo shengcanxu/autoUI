@@ -170,4 +170,4 @@ class ElementInfoWrapper(object):
             print(elem.control_type, end=":")
             print(elem.rich_text, end=" ")
             print(elem.rectangle)
-            self.dump(prefix + "    ", elem.children() )
+            self.dump(prefix + "|   ", elem.children() )
